@@ -61,16 +61,25 @@ body {
       box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 3px 15px rgba(0,0,0,0.19);
     }
 
+/* पूरे हेडर को टॉप पर चिपकाने के लिए */
+.sticky-header {
+    position: -webkit-sticky; /* Safari के लिए */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff; /* पीछे के प्रश्न न दिखें इसलिए */
+    padding-bottom: 5px;
+    border-bottom: 2px solid #eee;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); /* हल्का सा उभार */
+}
+
+/* टाइमर और काउंट का स्टाइल */
 .quiz-header-main {
     display: flex;
     justify-content: space-between;
-    align-items: left;
-    padding: 10px;
-    background: #f8f9fa;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px 15px;
 }
-
 #timer {
     font-weight: bold;
     font-size: 1.2rem;
@@ -89,26 +98,24 @@ body {
     50% { opacity: 0.5; }
 }
 
-    .quiz-progress {
-        font-size: 14px; 
-        font-weight: bold;
-        color: #008080;
-    }
+/* प्रोग्रेस बार को थोड़ा पतला और साफ दिखाने के लिए */
+.progress-bar-container {
+    width: 95%;
+    margin: 0 auto 5px auto;
+    background-color: #e0e0e0;
+    height: 8px;
+    border-radius: 10px;
+}
 
-    .progress-bar-container {
-        width: 100%;
-        height: 18px;
-        background-color: #e0e0e0;
-        border-radius: 2px;
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
- .progress-bar {
-        height: 100%;
-        width: 0%; 
-        background-color: #ff6600; 
-        transition: width 0.4s ease;
-    }
+.progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    width: 0%;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+
 
     .question-card {
       border: 1px solid #ddd;
