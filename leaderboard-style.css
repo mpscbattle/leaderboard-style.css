@@ -60,27 +60,34 @@ body {
       border-radius: 2px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 3px 15px rgba(0,0,0,0.19);
     }
-    
-    .quiz-header-main {
-        display: flex;
-        justify-content: space-between; 
-        align-items: center; 
-        padding-bottom: 5px;
-    }
 
-    .timer { 
-    background:#00b386; 
-    color:white; 
-    padding:0px 4px; 
-    border-radius:5px; 
-    font-weight:bold; 
-    font-size:14px; 
-    width:70px; 
-    height:30px; 
-    display:flex; 
-    justify-content:center; 
-    align-items:center; 
-    }
+.quiz-header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    /* जब समय कम हो तो चमकने वाला इफ़ेक्ट */
+    transition: color 0.3s ease;
+}
+
+/* 5 मिनट बचने पर JS इस क्लास को जोड़ देगा */
+.timer-low {
+    color: #ff0000 !important;
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0.5; }
+}
 
     .quiz-progress {
         font-size: 14px; 
