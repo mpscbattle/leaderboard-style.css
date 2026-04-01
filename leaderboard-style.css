@@ -57,7 +57,7 @@ body {
             margin: 10px auto;
             background: #ffffff;
             padding: 10px;
-            border-radius: 2px;
+            border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 3px 15px rgba(0,0,0,0.19);
         }
 
@@ -95,12 +95,12 @@ body {
         #timer {
             background: #343a40; /* Dark box for digits */
             color: white;
-            padding: 3px 4px;
-            border-radius: 4px;
+            padding: 2px 2px;
+            border-radius: 5px;
             font-weight: bold;
             font-size: 15px;
             min-width: auto;
-            text-align: center;
+            text-align: left;
           display: inline-block;
         }
 
@@ -155,7 +155,7 @@ body {
       width: 30px;
       height: 30px;
       border-radius: 50%;
-      background-color: #000099;
+      background-color: #004466;
       color: white;
       display: flex;
       justify-content: center;
