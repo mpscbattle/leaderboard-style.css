@@ -189,7 +189,7 @@ body {
     .btn-primary, .btn-secondary, .btn-black {
       padding: 10px 20px; 
       font-size: 16px;
-      border-radius: 2px;
+      border-radius: 5px;
       border: none;
       cursor: pointer;
       font-weight: bold;
@@ -198,11 +198,12 @@ body {
       line-height: 1.5;
     }
 
-    .btn-primary { background-color: #2e2eb8; color: white; }
-    .btn-secondary { background-color: #6c757d; color: white; } 
-    .btn-black { background-color: #000; color: white; }
+    .btn-primary { background-color: #204060; color: white; }
+    .btn-secondary { background-color: #cc6600; color: white; } 
+    .btn-black { background-color: #404040; color: white; }
 
-    .report-grid { 
+   
+ .report-grid { 
     display:grid; 
     grid-template-columns:1fr 1fr; 
     gap:10px; 
@@ -214,7 +215,7 @@ body {
     border:1px solid #ccc;
     padding: 15px 10px; 
     text-align:center; 
-    font-size:16px; 
+    font-size:17px; 
     border-radius:2px;  
     font-weight: bold;
     }
@@ -225,6 +226,8 @@ body {
         font-size: 18px !important;
         background-color: #e6e6ff !important;
     }
+
+
     .result-message { 
     text-align:center; 
     font-size:12px; 
@@ -276,7 +279,12 @@ body {
     }
     
     .analysis-box .option 
-    { font-size: 16px; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 0px; }
+    { 
+                font-size: 16px;
+     padding: 10px; 
+     margin: 10px 0; 
+     border: 1px solid #ccc;
+     border-radius: 0px; }
 
     .explanation-box {
       background-color: #ffe6cc;
