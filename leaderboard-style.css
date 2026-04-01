@@ -206,19 +206,19 @@ body {
 .report-grid {
     display: flex;
     flex-direction: column; /* बॉक्सेस एक खाली एक येण्यासाठी */
-    gap: 12px; /* बॉक्सेसमधील अंतर */
-    margin-top: 15px;
-    margin-bottom: 20px;
+    gap: 6px; /* बॉक्सेसमधील अंतर */
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
 }
 
 .report-item {
     background: #ffffff;
-    border: 1.5px solid #e0e0e0; /* थोडा स्पष्ट बॉर्डर */
-    padding: 15px;
+    border: 1px solid #e0e0e0; /* थोडा स्पष्ट बॉर्डर */
+    padding: 6px;
     text-align: center;
-    font-size: 18px; /* फॉन्ट थोडा मोठा केला */
-    border-radius: 8px; /* कोपरे थोडे गोल केले */
+    font-size: 15px; /* फॉन्ट थोडा मोठा केला */
+    border-radius: 4px; /* कोपरे थोडे गोल केले */
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* हलका शॅडो */
     display: flex;
@@ -229,8 +229,8 @@ body {
 /* स्कोअरचा बॉक्स वेगळा दिसण्यासाठी */
 .score-item {
     background-color: #e6e6ff !important;
-    border: 2px solid #2e2eb8 !important;
-    font-size: 20px !important;
+    border: 1px solid #ccccff !important;
+    font-size: 16px !important;
     justify-content: center !important; /* स्कोअर सेंटरला ठेवण्यासाठी */
     margin-top: 10px;
 }
