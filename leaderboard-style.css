@@ -213,8 +213,8 @@ body {
 }
 
 .report-item {
-    background: #ffffff;
-    border: 1px solid #e0e0e0; /* थोडा स्पष्ट बॉर्डर */
+    background: #f2f2f2;
+    border: 1px solid #cccccc; /* थोडा स्पष्ट बॉर्डर */
     padding: 6px;
     text-align: center;
     font-size: 16px; /* फॉन्ट थोडा मोठा केला */
@@ -224,6 +224,7 @@ body {
     display: flex;
     justify-content: space-between; /* मजकूर आणि नंबर बाजूला करण्यासाठी */
     align-items: center;
+            color: #262626;
 }
 
 /* स्कोअरचा बॉक्स वेगळा दिसण्यासाठी */
