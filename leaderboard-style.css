@@ -69,7 +69,7 @@ body {
             align-items: center;
             padding: 10px 0px; /* ऊपर-नीचे 10px, दाएं-बाएं 0px */
             background: #ffffff;
-            border-bottom: 1px solid #e0e0e0;
+            border-bottom: 1px solid #fff7e6;
             border-radius: 5px 5px 0 0;
         }
 
@@ -92,17 +92,21 @@ body {
          
         }
 
-        #timer {
-            background: #204060; /* Dark box for digits */
-            color: white;
-            padding: 3px 4px;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 15px;
-            min-width: 60px;
-            text-align: left;
-          display: inline-block;
-        }
+.timer { 
+            background:#404040; 
+            color:white; 
+            padding:2px 6px; 
+            border-radius:5px; 
+            font-weight:bold; 
+            font-size:15px; 
+            width:80px; 
+            height:30px; 
+            display:inline-block; 
+            justify-content:left; 
+            align-items:center; 
+}
+
+        
 
         .timer-low-bg {
             background-color: #f8d7da !important;
@@ -116,11 +120,7 @@ body {
         }
 
         @keyframes blinker { 50% { opacity: 0.5; } }
-.quiz-progress {
-            font-size: 15px; 
-            font-weight: bold;
-            color: #008080;
-        }
+
 
         
         .quiz-progress {
