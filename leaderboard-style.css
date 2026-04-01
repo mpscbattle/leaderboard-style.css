@@ -27,7 +27,7 @@ body {
         }
 
         .center-start-btn {
-            background-color: #0077b3;
+            background-color: #336699;
             color: white;
             padding: 10px 29px;
             font-size: 20px;
@@ -93,9 +93,9 @@ body {
         }
 
         #timer {
-            background: #262626; /* Dark box for digits */
+            background: #204060; /* Dark box for digits */
             color: white;
-            padding: 3px 3px;
+            padding: 3px 4px;
             border-radius: 5px;
             font-weight: bold;
             font-size: 15px;
@@ -132,7 +132,7 @@ body {
         .progress-bar-container {
             width: 100%;
             height: 18px;
-            background-color: #e0e0e0;
+            background-color: #fff7e6;
             border-radius: 2px;
             margin-bottom: 15px;
             overflow: hidden;
