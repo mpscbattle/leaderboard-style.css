@@ -275,9 +275,9 @@ body {
       text-align: center;
     }
 
-      .correct-feedback { background-color: #00cc66; color: white; } 
-    .wrong-feedback { background-color: #ff3333; color: white; } 
-    .not-attempted-feedback { background-color: #66c2ff; color: white; } 
+      .correct-feedback { background-color: #79d2a6; color: white; } 
+    .wrong-feedback { background-color: #ff9999; color: white; } 
+    .not-attempted-feedback { background-color: #b3b3cc; color: white; } 
 
     .analysis-box {
       border: 1px solid #ddd;
