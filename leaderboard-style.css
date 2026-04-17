@@ -329,4 +329,12 @@ body {
         font-weight: bold;
         color: #2e2eb8;
     }
+.question img, .explanation-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 10px 0;
+            }
+
     /* ------------------- CSS STYLES END ------------------- */
