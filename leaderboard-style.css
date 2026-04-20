@@ -303,6 +303,15 @@ body {
       color: #000000;
     }
 
+
+.question img, .explanation-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 10px 0;
+}
+
     .leaderboard-table {
         width: 100%;
         border-collapse: collapse;
