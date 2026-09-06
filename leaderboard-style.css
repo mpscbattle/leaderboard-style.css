@@ -166,13 +166,13 @@ body {
     }
 
     .question {
-      font-size: 18px;
+      font-size: 19px;
       font-weight: bold;
       margin-bottom: 10px;
     }
 
     .options .option {
-      font-size: 17px;
+      font-size: 18px;
       padding: 10px;
       margin: 10px 0;
       border: 1px solid #cccccc;
@@ -283,12 +283,12 @@ body {
       border: 1px solid #ddd;
       margin: 20px 0;
       padding: 10px;
-      font-size: 18px;
+      font-size: 19px;
       border-radius:2px;
     }
     
     .analysis-box .option { 
-     font-size: 17px;
+     font-size: 18px;
      padding: 10px; 
      margin: 10px 0; 
      border: 1px solid #ccc;
