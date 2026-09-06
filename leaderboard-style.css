@@ -303,6 +303,7 @@ body {
     }
 
 
+
 .question img, .explanation-box img {
     max-width: 100%;
     height: auto;
@@ -312,18 +313,26 @@ body {
 }
 
     .leaderboard-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 15px;
-        margin-bottom: 20px;
-        font-size: 15px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+width: 100% !important;
+  max-width: 100% !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  table-layout: auto !important;
+  box-sizing: border-box !important;
     }
 
     .leaderboard-table th, .leaderboard-table td {
-        padding: 10px 15px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
+        border: 1px solid #000000 !important;
+  padding: 8px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  word-wrap: break-word !important;
+  word-break: normal !important;
     }
 
     .leaderboard-table th {
@@ -337,6 +346,25 @@ body {
         font-weight: bold;
         color: #2e2eb8;
     }
+@media screen and (max-width: 768px) {
+  .leaderboard-table {
+    display: table !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    table-layout: auto !important;
+  }
+
+  .leaderboard-table td,
+  .leaderboard-table th {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 7px !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
 .question img, .explanation-box img {
     max-width: 100%;
     height: auto;
@@ -344,5 +372,6 @@ body {
     display: block;
     margin: 10px 0;
             }
+
 
     /* ------------------- CSS STYLES END ------------------- */
